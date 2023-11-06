@@ -64,8 +64,8 @@
             // yani bir classım olacak
             // öğrenci tanımlanabilecek-ad-soyad-sınıf-not1-not2
             //(ekrandan 5 öğrenci parametrik ekran alınabilir--daha sonra class a gönderilebilir.)
-            // öğrencinin GK durumu cw yapılacak %60(2.sınav) %40(1.sınav) kuralı uygulanabilir
-
+            // öğrencinin GK durumu cw yapılacak %60(2.sınav) %40(1.sınav) kuralı uygulanabilir...geçme notu 65 olsun
+            // Daily WO (InClass)
             #endregion
 
             Console.ReadKey();
