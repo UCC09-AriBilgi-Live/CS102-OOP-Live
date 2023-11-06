@@ -63,7 +63,7 @@
             #region Öğrenci-Sınıf-Not-GeçtiKaldı
             // yani bir classım olacak
             // öğrenci tanımlanabilecek-ad-soyad-sınıf-not1-not2
-            //(ekrandan 5 öğrenci parametrik ekran alınabilir--daha sonra class a gönderilebilir.)
+            //(ekrandan 5 öğrencinin gerekli bilgeleri ekrandan alınabiir. tekbir öğrencinin bilgileri girildikten sonra hesaplama-mesaj verme halledilir 2. öğrenciye geçilebilir.Not hesaplama bilgileri doldurma class tarafında halledilebir get/set metotları gibi..
             // öğrencinin GK durumu cw yapılacak %60(2.sınav) %40(1.sınav) kuralı uygulanabilir...geçme notu 65 olsun
             // Daily WO (InClass)
             #endregion
