@@ -8,7 +8,7 @@
         protected internal string Location;
         protected internal int Age;
 
-        void getUserDetails() 
+        public void getUserDetails() 
         {
             Console.WriteLine($"Name : {Name}");
             Console.WriteLine($"Location : {Location}");
@@ -60,6 +60,14 @@
             user.getUserDetails();
             Console.WriteLine("Lütfen bir tuşa basınız....");
             #endregion
+
+            #region protected
+            clsMovies movies = new clsMovies();
+
+            Console.WriteLine(  "Movie Name : {0}",movies.movieName);
+
+            #endregion
+
 
             Console.ReadKey();
         }
