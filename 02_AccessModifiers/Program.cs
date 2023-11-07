@@ -166,6 +166,9 @@
             #endregion
 
             #region Telefon Rehberi
+            // RehberNo,Ad,Soyad,telno olacak şekilde basit bir rehber
+            // ?? tanımlanmış olan 50 adet nesnenin içinde isim özelliğinde "Ahmet" geçen nesnelerimin bulunması ??
+            //
 
 
 
