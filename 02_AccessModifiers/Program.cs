@@ -81,62 +81,94 @@
             // nesneye ekrandan alınan bilgiler gömülecek(set)
 
             // 5 kitap bittikten sonra get ilede herbir kitabın veri içeriği cw yapılabilir...
-            int BID;
-            string BName;
-            string BAuthor;
+            //int BID;
+            //string BName;
+            //string BAuthor;
 
-            Console.Clear();
+            //Console.Clear();
 
-            #region Kitap1
-            // 1.kitap için...
-            Console.Write("Book ID : ");
-            BID= Convert.ToInt32(Console.ReadLine());
+            //#region Kitap1
+            //// 1.kitap için...
+            //Console.Write("Book ID : ");
+            //BID= Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Book Name : ");
-            BName = Console.ReadLine();
+            //Console.Write("Book Name : ");
+            //BName = Console.ReadLine();
 
-            Console.Write("Book Author : ");
-            BAuthor = Console.ReadLine();
+            //Console.Write("Book Author : ");
+            //BAuthor = Console.ReadLine();
 
-            clsBook book1= new clsBook(); // nesne oluşturuldu
-            book1.setBook(BID, BName, BAuthor);
+            //clsBook book1= new clsBook(); // nesne oluşturuldu
+            //book1.setBook(BID, BName, BAuthor);
+            //#endregion
+
+            //#region Kitap2
+            //// 2.kitap için...
+            //Console.Write("Book ID : ");
+            //BID = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Book Name : ");
+            //BName = Console.ReadLine();
+
+            //Console.Write("Book Author : ");
+            //BAuthor = Console.ReadLine();
+
+            //clsBook book2 = new clsBook(); // nesne oluşturuldu
+            //book2.setBook(BID, BName, BAuthor);
+            //#endregion
+
+            //#region Kitap3
+            //// 3.kitap için...
+            //Console.Write("Book ID : ");
+            //BID = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Book Name : ");
+            //BName = Console.ReadLine();
+
+            //Console.Write("Book Author : ");
+            //BAuthor = Console.ReadLine();
+
+            //clsBook book3 = new clsBook(); // nesne oluşturuldu
+            //book3.setBook(BID, BName, BAuthor);
+            //#endregion
+
+            //// ekrana bastırma kısmı
+
+            //Console.WriteLine(book1.getBook() + "\n\n");
+            //Console.WriteLine(book2.getBook() + "\n\n");
+            //Console.WriteLine(book3.getBook() + "\n\n");
             #endregion
 
-            #region Kitap2
-            // 2.kitap için...
-            Console.Write("Book ID : ");
-            BID = Convert.ToInt32(Console.ReadLine());
+            #region Sample Calculator
+            // bildiğimiz 4 işlemi yapan çok basit bir hesap makinesi
+            // ekrandan sayi1 sayi2 ve işlem kodunu alsın
+            // sonucu yazsın
 
-            Console.Write("Book Name : ");
-            BName = Console.ReadLine();
+            // yani tek class olsun(clsIslem) ve bu class parametrik olsun
+            // istenen işleme göre ilgili class ile işlem yapılsın sonuçlar alınsın
+            // daha girerken nesnemi olusturayım..
+            clsIslem Islem = new clsIslem();
 
-            Console.Write("Book Author : ");
-            BAuthor = Console.ReadLine();
 
-            clsBook book2 = new clsBook(); // nesne oluşturuldu
-            book2.setBook(BID, BName, BAuthor);
+            Console.Write("1.sayınızı giriniz : ");
+            Islem.sayi1=Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("2.sayınızı giriniz : ");
+            Islem.sayi2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("İşlem Kodu (+,-,*,/) : ");
+            Islem.islem = Convert.ToChar(Console.ReadLine());
+
+            Islem.setSonuc(); // işlem gerçekleştiriliyor
+
+            Console.WriteLine("\n\nİstemiş olduğunuz işlemin sonucu = {0}",Islem.getSonuc());
+
             #endregion
 
-            #region Kitap3
-            // 3.kitap için...
-            Console.Write("Book ID : ");
-            BID = Convert.ToInt32(Console.ReadLine());
+            #region Telefon Rehberi
 
-            Console.Write("Book Name : ");
-            BName = Console.ReadLine();
 
-            Console.Write("Book Author : ");
-            BAuthor = Console.ReadLine();
 
-            clsBook book3 = new clsBook(); // nesne oluşturuldu
-            book3.setBook(BID, BName, BAuthor);
-            #endregion
-
-            // ekrana bastırma kısmı
-
-            Console.WriteLine(book1.getBook() + "\n\n");
-            Console.WriteLine(book2.getBook() + "\n\n");
-            Console.WriteLine(book3.getBook() + "\n\n");
             #endregion
 
             Console.ReadKey();
