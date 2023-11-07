@@ -1,5 +1,27 @@
 ﻿namespace _02_AccessModifiers
 {
+    #region Inline class
+
+    public class User
+    {
+        protected internal string Name;
+        protected internal string Location;
+        protected internal int Age;
+
+        void getUserDetails() 
+        {
+            Console.WriteLine($"Name : {Name}");
+            Console.WriteLine($"Location : {Location}");
+            Console.WriteLine($"Age : {Age}");
+        }
+    }
+
+
+
+    #endregion
+
+
+
     internal class Program
     {
         static void Main(string[] args)
@@ -19,14 +41,24 @@
 
             #region Private
             // Örneğimizde bir Student bilgilerinin bulunağı bir örnek. ve bunu ayrı bir sınıf dosyası içinde tutacağım.
-            clsStudent student = new clsStudent();
+            //clsStudent student = new clsStudent();
 
-            //Console.WriteLine("Name : " + student.Name);
+            ////Console.WriteLine("Name : " + student.Name);
 
-            student.getName();
+            //student.getName();
 
+            #endregion
 
+            #region Inline
 
+            User user = new User();
+
+            user.Name = "ÜK";
+            user.Location = "Estonia";
+            user.Age = 58;
+
+            user.getUserDetails();
+            Console.WriteLine("Lütfen bir tuşa basınız....");
             #endregion
 
             Console.ReadKey();
