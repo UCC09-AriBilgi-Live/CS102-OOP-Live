@@ -132,7 +132,7 @@
             Console.WriteLine("Staff: " + staff.Name + " " + staff.Lastname + " Salary: " + staff.Salary);
             Console.WriteLine("Staff: " + worker.Name + " " + worker.Lastname + " Salary: " + worker.Salary);
             Console.WriteLine("Staff: " + manager.Name + " " + manager.Lastname + " Salary: " + manager.Salary);
-            Console.WriteLine("Staff: " + intern.Name + " " + intern.Lastname + " Salary " + intern.Salary);
+            Console.WriteLine("Staff: " + intern.Name + " " + intern.Lastname + " Salary " + intern.Salary); 
 
 
 
