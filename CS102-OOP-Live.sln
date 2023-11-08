@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Classes", "01_Classes\01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_AccessModifiers", "02_AccessModifiers\02_AccessModifiers.csproj", "{FBD53616-95AB-4BAB-9647-BD896BC02E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Inheritance", "03_Inheritance\03_Inheritance.csproj", "{91FA4320-527D-4E44-9855-0D68B0246853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Inheritance", "03_Inheritance\03_Inheritance.csproj", "{91FA4320-527D-4E44-9855-0D68B0246853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Polymorphism", "04_Polymorphism\04_Polymorphism.csproj", "{974997F6-B12C-47DF-A986-07DA9613FE5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Polymorphism", "04_Polymorphism\04_Polymorphism.csproj", "{974997F6-B12C-47DF-A986-07DA9613FE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Constructors", "05_Constructors\05_Constructors.csproj", "{E35BD5B0-EEAF-41D3-A2B2-27DD3F65725A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{974997F6-B12C-47DF-A986-07DA9613FE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{974997F6-B12C-47DF-A986-07DA9613FE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{974997F6-B12C-47DF-A986-07DA9613FE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35BD5B0-EEAF-41D3-A2B2-27DD3F65725A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35BD5B0-EEAF-41D3-A2B2-27DD3F65725A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35BD5B0-EEAF-41D3-A2B2-27DD3F65725A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35BD5B0-EEAF-41D3-A2B2-27DD3F65725A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
