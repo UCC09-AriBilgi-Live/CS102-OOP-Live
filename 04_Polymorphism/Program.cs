@@ -134,6 +134,10 @@
             Console.WriteLine("Staff: " + manager.Name + " " + manager.Lastname + " Salary: " + manager.Salary);
             Console.WriteLine("Staff: " + intern.Name + " " + intern.Lastname + " Salary " + intern.Salary); 
 
+// Daily Workout 01
+// Çember,Kare,Dikdörtgen için bir alan hesaplama programı yazılacaktır
+// Herbir nesne için hesaplamayı yapacak gerekli  bilgiler atandıktan sonra hesaplama işlemleri ayrı ayrı yapılıp ekrana basılacaktır...
+
 
 
                     Console.ReadKey();
