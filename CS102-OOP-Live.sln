@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Polymorphism", "04_Polym
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Constructors", "05_Constructors\05_Constructors.csproj", "{E35BD5B0-EEAF-41D3-A2B2-27DD3F65725A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Encapsulation", "06_Encapsulation\06_Encapsulation.csproj", "{8121BB7B-07E2-4F4B-8AAD-59F39CB4B639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Encapsulation", "06_Encapsulation\06_Encapsulation.csproj", "{8121BB7B-07E2-4F4B-8AAD-59F39CB4B639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Abstraction", "07_Abstraction\07_Abstraction.csproj", "{03DAB40A-5790-4FE9-9F99-769EBBF41D25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8121BB7B-07E2-4F4B-8AAD-59F39CB4B639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8121BB7B-07E2-4F4B-8AAD-59F39CB4B639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8121BB7B-07E2-4F4B-8AAD-59F39CB4B639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DAB40A-5790-4FE9-9F99-769EBBF41D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DAB40A-5790-4FE9-9F99-769EBBF41D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DAB40A-5790-4FE9-9F99-769EBBF41D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DAB40A-5790-4FE9-9F99-769EBBF41D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
