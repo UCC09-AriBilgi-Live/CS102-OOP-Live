@@ -23,8 +23,38 @@ namespace _06_Encapsulation
         {
             this.Balance = this.Balance + balance;
         }
-             
-        
+
+
+
+
+
+        #endregion
+
+        #region getterınız/setterınız
+        private double balance; // Yani dışarıya normalde kapalı bir değişgen tanımı yapılmış
+
+        // setter - getter metotlarının tanımlanması
+
+        // public bir şekilde tanımlanan getter(get) metodu.
+        // bu metod aslında balance değişgeninde tutulan değeri öğrenmek için
+        public double getBalanceCaps()
+        {
+            // .. diyelim burada bir kodlar var...
+
+            return balance;
+        }
+
+        // public bir şekilde tanımlanan getter(get) metodu.
+        // bu metod aslında balance değişgeninin içeriğini güncelleme için
+        public void setBalanceCaps(double balance)
+        {
+            // .. diyelim burada bir kodlar var...
+
+            this.balance = balance; // o an oluşan balance değerini bu sınıf içersindeki değişgene yerleştir (this keyword ile)
+
+        }
+
+
 
 
 
