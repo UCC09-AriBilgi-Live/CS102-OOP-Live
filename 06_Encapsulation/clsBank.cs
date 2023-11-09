@@ -91,7 +91,8 @@ namespace _06_Encapsulation
 
         #endregion
 
-        #region get/set olayı değişgenler/property lere de uygulunabilir ...işte bu durumda get/set keywordlerini kullabilirim
+        #region get/set olayı değişgenler/property lere de uygulanabilir ...
+        //işte bu durumda get/set keywordlerini kullabilirim
 
         private int _Amount1;
 
