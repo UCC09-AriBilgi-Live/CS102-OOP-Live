@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace _07_Abstraction
 {
-    // işletme içersinde "Beden İşçisi" statusundeki kişiler için  böyle bir sınıf oluşturuyorum ve Base class dan kendime kalıtıyorum..ve bu sınıf için gereken kodları yazıyor.
+    // İşletme içerisinde beden işçisi statüsünde çalışan kişiler için EmployeManager isminde bir sınıf
+    // oluşturarak bu sınıfı kalıtım yolu ile üst sınıfını clsEmployeeBaseManager seçerek gerekli kodları yazalım…
+
     internal class clsEmployeeManager : clsEmployeeBaseManager
     {
         // Constructor ...
         public clsEmployeeManager() 
         {
-            // bu sınıf "clsEmployeeManager" ilk yaratıldığı anda default bazı tanımlamalar yapabilmek için...
+            // bu class/nesne ilk oluştuğunda default en taban Title tanımını oluşturmak için
+
             setTitle("Beden İşçisi");
         
         }
@@ -22,7 +25,7 @@ namespace _07_Abstraction
 
             double raise = salary + 500; // burası zamlı maaş olacak
 
-            setSalary(raise);
+            setSalary(raise); // Çalışanın yeni zamlı maaşı işlendi.
 
         }
 
@@ -32,7 +35,7 @@ namespace _07_Abstraction
 
             double raise = salary + (salary * prmRaiseRate/100);
 
-            setSalary(raise); //  yeni maas set edilecek...
+            setSalary(raise); //  // Yeni güncellenmiş maaş...
 
         }
     }

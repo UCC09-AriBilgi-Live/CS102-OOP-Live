@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace _07_Abstraction
 {
+    // Mühendis sınıfından personeller için kullanılacak class
+
     internal class clsEngineerManager : clsEmployeeBaseManager
     {
 
