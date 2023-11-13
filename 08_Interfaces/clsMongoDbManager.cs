@@ -15,6 +15,7 @@ namespace _08_Interfaces
         public void addvalue(string value)
         {
             this.value = value;
+            Console.WriteLine("MongoDB verisi eklendi....");
         }
 
         public void close()

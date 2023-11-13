@@ -32,7 +32,7 @@ namespace _08_Interfaces
 
             if (database.login(userName,password) == 1)
             {
-                //MenuCommand();
+                menu();
 
             }
             else
@@ -84,17 +84,17 @@ namespace _08_Interfaces
             {
                 case 1:
                     addValue("A");
-                    Console.Clear();
+                    //Console.Clear();
                     menu();  // menuyu tekrar çağırıyor...
                     break;
                 case 2:
                     deleteValue();
-                    Console.Clear();
+                    //Console.Clear();
                     menu();
                     break;
                 case 3:
                     getValue();
-                    Console.Clear();
+                    //Console.Clear();
                     menu();
                     break;
                 case 4:
