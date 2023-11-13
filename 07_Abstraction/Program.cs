@@ -17,9 +17,31 @@
         // 3. Her çalışan kişinin zam oranı, yıllık izni gibi kavramlar çalışanın statüsüne, deneyimine bağlı
         // değişeceği için abstract metot olarak bazı metotların da tanımlanması gerekmektedir.
         // Tanımlamalar gerçekleştirdikten sonra clsEmployeeBaseManager sınıfının içeriğini inceleyelim:
+
         static void Main(string[] args)
         {
-           
+            // Öncelikle bir Beden İşçisi oluşturalım
+
+            clsCreateEmployeeManager bodyworker = new clsCreateEmployeeManager(); // nesneyi yarattım.
+
+            //bodyworker.employeeBaseManager= new clsEmployeeManager();
+
+            bodyworker.Create();
+
+            bodyworker.getInfo();
+
+
+            // bir mühendis için
+
+            clsCreateEmployeeManager engineer = new clsCreateEmployeeManager();
+
+            engineer.employeeBaseManager = new clsEngineerManager(); // Mühendisler için
+
+            engineer.Create();
+
+            engineer.getInfo();
+
+            Console.ReadKey();
 
         }
     }

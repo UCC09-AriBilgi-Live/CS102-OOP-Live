@@ -30,6 +30,8 @@ namespace _07_Abstraction
             }
         }
 
+        // Çalışan kişilerin bilgilerini set edeceğimiz metot
+
         public void setInfo(string pName,string pSurName,double pSalary)
         {
             if (pName.Length >= 3 && pSurName.Length >=2) // isim boyut kontro
@@ -72,6 +74,8 @@ namespace _07_Abstraction
 
             }
         }
+
+        // Maaş bilgilerine erişim sağlacak Getter/Setter metotları
 
         public double getSalary()
         {
